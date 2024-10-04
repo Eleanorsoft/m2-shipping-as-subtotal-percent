@@ -2,10 +2,10 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
     <default>
         <carriers>
-            <customhipping>
+            <shipping_by_subtotal>
                 <active>1</active>
                 <sallowspecific>0</sallowspecific>
-                <model>Eleanorsoft\CustomShipping\Model\Carrier\Shipping</model>
+                <model>Eleanorsoft\ShippingBySubtotal\Model\Carrier\Shipping</model>
                 <name>By subtotal percent</name>
                 <subtotal_percent>5</subtotal_percent>
                 <minimum_rate>0.00</minimum_rate>
@@ -13,7 +13,7 @@
                 <title>Shipping</title>
                 <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
                 <handling_type>F</handling_type>
-            </customhipping>
+            </shipping_by_subtotal>
         </carriers>
     </default>
 </config>

@@ -1,5 +1,5 @@
 <?php
-namespace Eleanorsoft\CustomShipping\Model\Carrier;
+namespace Eleanorsoft\ShippingBySubtotal\Model\Carrier;
 
 use Magento\Quote\Model\Quote\Address\RateRequest;
 use Magento\Shipping\Model\Rate\Result;
@@ -7,7 +7,7 @@ use Magento\Shipping\Model\Rate\Result;
 class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implements
     \Magento\Shipping\Model\Carrier\CarrierInterface
 {
-    protected $_code = 'customhipping';
+    protected $_code = 'shipping_by_subtotal';
 
     protected $_rateResultFactory;
 
