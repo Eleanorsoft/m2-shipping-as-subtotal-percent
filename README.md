@@ -1,6 +1,6 @@
 # Magento2 Shipping by Subtotal
 
-Module add a new shipping method that calculates shipping cost as percent of subtotal
+Module adds a new shipping method that calculates shipping cost as percent of subtotal
 
 Copy it to your app/code folder and run:
 ```
