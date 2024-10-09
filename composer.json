@@ -3,7 +3,7 @@
     "type": "magento2-module",
     "version": "1.0.0",
     "license": "MIT",
-    "description": "EleanorSoft module with a new shipping method that calculates shipping cost as percent of subtotal",
+    "description": "EleanorSoft module for Magento 2 with a new shipping method that calculates shipping cost as percent of subtotal",
     "require": {
         "php": ">=7.4"
     },
